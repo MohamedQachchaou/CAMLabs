@@ -180,7 +180,7 @@ cloudctl iam service-policy-create ${serviceIDName} -r Administrator,ClusterAdmi
 cloudctl iam service-api-key-create ${serviceApiKeyName} ${serviceIDName} -d 'Api key for service-deploy'
 ```
 
-
+**Note:** Make sure all the command are executed correctly. Sometimes you need to hit enter to execute the last command. Make sure your output looks similar to the output below.
 
 When this command completes you should see the followin output:
 

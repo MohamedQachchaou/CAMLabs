@@ -83,11 +83,11 @@ In this lab you will create a Template and deploy a Virtual Machine from that te
 
   - Virtual Machine IP address:  
 
-    **<<JW>> Add IP address ranges for each team here. <<JW>>**
+     Select an IP from the range assigned to your team found here: [Team Assignments](https://github.ibm.com/john-webb/cam4admins/blob/master/Team_Assignments.md)
 
   - Virtual Machine Memory - memory assigned to the virtual machine: **1024**
 
-  - 24Virtual Machine Netmask Prefix:  **24**
+  - Virtual Machine Netmask Prefix:  **24**
 
   - Virtual Machine vCPU's: **1**
 

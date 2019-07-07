@@ -6,7 +6,7 @@
 
 ​	Https://10.0.0.210/vsphere-client/?csp
 
-2. open the *Navigator* tab, if it's not already open.  Go to the VM's and Templates tab in the navigator open 10.0.0.210 > Datacenter > Target > Team # > Team#VM
+2. Open the *Navigator* tab, if it's not already open.  Go to the VM's and Templates tab in the navigator open 10.0.0.210 > Datacenter > Target > Team # > Team#VM
 
 ​			![Lab_1-4_A](../images/Lab_1-4_A.png)
 
