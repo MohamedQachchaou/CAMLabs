@@ -74,34 +74,22 @@ While still in the GitLab UI, you need to add a personal access token that will 
    cd gitlab
    ```
 
-2. Now you are going to 'clone' the project onto the boot node. Do this by executing these instructions ...
+2. Now you are going to 'clone' the Master project onto the boot node and then redirect the downloaded fils to your new project. Do this by executing these instructions ...
 
    ```
    git config --global user.email "labadmin@ibm.com"
    git config --global user.name "labadmin"
-   git clone ssh://git@gitlab.10.10.1.4.nip.io:2222/labadmin/teamx-project1.git
+   git clone https://github.com/jdiggity22/CAMLabs.git
+   cd CAMLabs
+   rm -rf .git
+   git init
+   git remote add origin ssh://git@gitlab.10.10.1.4.nip.io:2222/labadmin/teamx-project1.git
       <Remember to swap the 'x' for your team number>
+   git add .
+   git commit -m "Initial commit"
+   git push -u origin master
    ```
-   You should now have a new folder called teamx-project1 which appears to contains no files. There are in fact some hidden files (.git folder) which can be seen by doing an **ls -al teamx-project1** 
 
-### Populating your project with the terraform files from the previous lab
-
-   Rather than creating the files from scratch, we can copy the files that were cloned from the GitHub repo in the previous lab. To do this run the following ...
-    
-   ```
-   mkdir ~/Terraform/gitlab/teamx-project1/Terraform
-   cd ~/Terraform/gitlab/teamx-project1/Terraform
-   cp -R ~/Terraform/CAMLabs/Terraform/Lab2 .
-   ```
-   You should now have a folder call Lab2 inside you teeamx-project1/Terraform folder which will contain a copy of the terraform files used in the previous lab. 
-   
-   Now you need to push the new files back into your gitlab repository. To do this run the following ...
-
-   ```
-   git add *
-   git commit -m "Initial upload"
-   git push
-   ```
    Go back to the GitLab web UI and click on Projects -> Your projects. You should now see the project you created previously, but this time, when you click on the project name, it should have a folder called Terraform/Lab2. Click on the foler name and you will see the terraform files are now loaded into your project.
    
 ### Modifying your project
