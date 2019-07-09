@@ -16,7 +16,7 @@ Execute this section from the **Boot** node.
    mkdir Terraform
    cd Terraforrm
    git clone https://github.com/jdiggity22/CAMLabs.git
-   rm -rf ~/CAMLabs/.git
+   rm -rf ~/Terraform/CAMLabs/.git
    ```
 
 3. Change to the terraform working directory

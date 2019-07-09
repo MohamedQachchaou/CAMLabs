@@ -13,7 +13,7 @@
 
    - Instance Name - **team#was9vm**
 
-   - Name space - **default**
+   - Name space - **services**
 
    - Cloud Connection - **Team#-VMware**
 

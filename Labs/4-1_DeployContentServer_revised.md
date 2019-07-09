@@ -57,7 +57,7 @@ Before deploying the Content Runtime server, you will need a to create a public/
    - Cloud Provider
      
      - vSphere Datacenter: **Datacenter**
-     - vSphere Disk Datastore: **D_S01_L01_500G** or **D-S02_L01_500G**
+     - vSphere Disk Datastore: **D_S01_L01_500G** or **D_S02_L01_500G**
      - vSphere Default Resource Pool: **CAMPool**
      - vSphere Network Adapter Type: **vmxnet3**
      - Domain Name: **cam.local**
@@ -122,7 +122,7 @@ In thsi section you are goiung to createa siftware repoisitory that the IBM Inst
 
    - go to root directory
 
-   - run  `scp -r ./export/WASND_binaries 10.0.0.###:~/binaries`
+   - run  `scp -r /export/WASND_binaries 10.0.0.###:~/binaries`
 
      ​	The IP address of your teams Content Runtime Serverwill be  (10.0.0.??)
 
@@ -213,7 +213,7 @@ In thsi section you are goiung to createa siftware repoisitory that the IBM Inst
    - From the `IMTemp` dir run 
 
      ```
-     unzip ~/binaries/WASND_binaries/agent.installer.linux.gtk.x86_64_1.8.8000.20171130_1105.zip-d imtoolkit
+     unzip ~/binaries/WASND_binaries/agent.installer.linux.gtk.x86_64_1.8.8000.20171130_1105.zip -d imtoolkit
      ```
 
      - Use the IMCL (Installiation Manager Comand Line) To validate the repository

@@ -74,7 +74,7 @@ While still in the GitLab UI, you need to add a personal access token that will 
    cd gitlab
    ```
 
-2. Now you are going to 'clone' the Master project onto the boot node and then redirect the downloaded fils to your new project. Do this by executing these instructions ...
+2. Now you are going to 'clone' the Master project onto the boot node and then redirect the downloaded files to your new project. Do this by executing these instructions ...
 
    ```
    git config --global user.email "labadmin@ibm.com"
@@ -103,8 +103,8 @@ While still in the GitLab UI, you need to add a personal access token that will 
 1. From the terminal emulator previously opened, run the following commands
 
    ```
-   cd ~/Terraform/gitlab/teamx-project1/Terraform
-   vi Lab2/terraform.tfvars
+   cd ~/Terraform/gitlab/CAMLabs/Terraform/Lab2
+   vi terraform.tfvars
    ```
 2. Search for the line containing **nodes = "1"** and change the '1' to a '2'
 
@@ -115,7 +115,7 @@ While still in the GitLab UI, you need to add a personal access token that will 
 5. Push your changes back into the Git project using 
 
    ```
-   git add Lab2/terraform.tfvars
+   git add terraform.tfvars
    git commit -m "Changed number of nodes and cpu"
    git push
    ```

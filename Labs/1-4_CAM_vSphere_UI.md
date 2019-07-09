@@ -2,7 +2,7 @@
 
 ### Review VM in vSphere:
 
-1. Open vSphere, using the link in your chrome browser.
+1. Open vSphere, using the link in your chrome browser and login with the user **administrator@vsphere.local** and password **Passw0rd!**.
 
 ​	Https://10.0.0.210/vsphere-client/?csp
 

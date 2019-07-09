@@ -46,10 +46,9 @@ In this lab you will create a Template and deploy a Virtual Machine from that te
 
 - Virtual Machine Input Variables
 
-  - Virtual Machine Hostname - Host Name of virtual machine:  **vm_1**
-
-  ​           *Note:  Valid characters for hostnames are ASCII(7) letters*
-  ​           *from a to z, the digits from 0 to 9, and the hyphen (-).*
+  - Virtual Machine Hostname - Host Name of virtual machine:  **Team#-vm1**
+  
+    **Note:** Valid characters for hostnames are ASCII(7) letters from a to z, the digits from 0 to 9, and the hyphen (-).
 
   - DNS Servers - DNS serers for virtual, network adapter
 
@@ -91,7 +90,7 @@ In this lab you will create a Template and deploy a Virtual Machine from that te
 
   - Virtual Machine vCPU's: **1**
 
-  - Virtual Machine vSphere Port Group: "**VM Network**"
+  - Virtual Machine vSphere Port Group: \**VM Network**
 
   - vSphere Network Adapter Type:
 
