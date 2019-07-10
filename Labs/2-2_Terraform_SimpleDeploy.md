@@ -32,7 +32,7 @@ Execute this section from the **Boot** node.
    Note: This is the first command that should be run after writing a new Terraform configuration or cloning an existing one from version control. It is safe to run this command multiple times.
 
    ```
-   terrform init
+   terraform init
    ```
 
 5. Set the vCenter access credentials
@@ -47,6 +47,8 @@ Execute this section from the **Boot** node.
 ## Create your first instance
 
 In this section we will create a RedHat 76 Linux virtual machine in vCenter. 
+
+Your VM will be created in a folder under Datacenter -> Target -> TeamX -> Lab2 where 'X' is your team ID.
 
 First, launch the vSphere Web Client via the Chrome web browser (connection tab is already defined). Login with the same credentials used above in step 3.
 
@@ -73,8 +75,6 @@ On completion, a summary indicating the number of resources that have been affec
 If you now look at your previously launched vSphere Web Client, you should now see (under the VMs and Templates tab) a new virtual machine has been created similar to the one below. 
 
 ![img](../images/LAB_2-2_A.png)
-
-Note: Your VM will be created in a folder under Datacenter -> Target -> TeamX -> Lab2 where 'X' is your team ID.
 
 ### Re-running the plan
 

@@ -46,8 +46,8 @@ Click on Menu -> Library -> Services
    Payload: 
    ```
    {
-     “title”: “Team ${input_parameters.team_number} has provisioned a new virtual machine”,
-     “description”: “You are able to see your system in the CAM Console at https://10.10.1.2:30000/cam/portal/#!/serviceinstances”
+     "title": "Team ${input_parameters.team_number} has provisioned a new virtual machine",
+     "description": "You are able to see your system in the CAM Console at https://10.10.1.2:30000/cam/portal/#!/serviceinstances"
    }
    ```
    
